@@ -8,9 +8,19 @@ body{
 }
 #navbar{
   background-color: #AE8A7A;
-  height: 1000%;
+  color:#ffffff
 }
-
+.btnCV{
+  color:#ffffff;
+  text-decoration: none;
+  padding: 28px;
+}
+.btnCV:hover{
+  padding: 28px;
+  background-color: #bdaba3;
+  color:#020202;
+  text-decoration: none;
+}
 /* Tamaño tablet (768-480)*/
 @media all and (min-width: 480px) and (max-width: 768px) {
   
