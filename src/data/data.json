@@ -1,0 +1,25 @@
+{
+  "name": "Ximena Silva",
+  "skills": [
+    {
+        "technology": "React",
+        "percent": "70"
+    },{
+        "technology": "bootstrap",
+        "percent": "60"
+    },{
+        "technology": "Javascript",
+        "percent": "80"
+    },{
+        "technology": "HTML",
+        "percent": "80"
+    },{
+        "technology": "CSS",
+        "percent": "70"
+    },{
+        "technology": "Firebase",
+        "percent": "80"
+    },{
+        "technology": "Node.js",
+        "percent": "80"
+    }]}
