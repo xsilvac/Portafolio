@@ -9,8 +9,8 @@ const Home = () => {
   const [bd, setBd] = useState([]);
   
   useEffect(() => {
-    setBd(data.skills)
-    console.log(bd)
+    setBd([...data.skills])
+    // console.log([...data.softSkills])
   }, [])
   
   return (
@@ -24,9 +24,20 @@ const Home = () => {
         .start();
         }}
         />
+        <div className="containers">
       {bd.map((info) =>
-        <Skills technology={info.technology} percent={info.percent} image={info.url}/>
+      <div  key={info.skill}>
+        {/* <div className="row justify-content-center">
+          <div className="col-6 col-md-3 py-2"> */}
+          <Skills skill={info.skill} percent={info.percent} image={info.url}/>
+          {/* </div>
+        
+        </div> */}
+        
+        </div>
+        
       )}
+      </div>
       
     </div>
   )

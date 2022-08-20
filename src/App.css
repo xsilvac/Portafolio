@@ -21,6 +21,12 @@ body{
   color:#020202;
   text-decoration: none;
 }
+.containers{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
 /* .title {
   width: 48%;
   height:50%;

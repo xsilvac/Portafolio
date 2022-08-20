@@ -2,47 +2,113 @@
   "name": "Ximena Silva",
   "skills": [
     {
-        "technology": "React",
+        "skill": "React",
         "percent": "70",
+        "category": "hardSkill",
         "url": "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
     },{
-        "technology": "Bootstrap",
+        "skill": "Bootstrap",
         "percent": "60",
+        "category": "hardSkill",
         "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
     },{
-        "technology": "Javascript",
+        "skill": "Javascript",
         "percent": "80",
+        "category": "hardSkill",
         "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
     },{
-        "technology": "HTML",
+        "skill": "HTML",
         "percent": "80",
+        "category": "hardSkill",
         "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
     },{
-        "technology": "CSS",
+        "skill": "CSS",
         "percent": "70",
+        "category": "hardSkill",
         "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
     },{
-        "technology": "Firebase",
+        "skill": "Firebase",
         "percent": "80",
+        "category": "hardSkill",
         "url": "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
     },{
-        "technology": "Node.js",
+        "skill": "Node.js",
         "percent": "70",
+        "category": "hardSkill",
         "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
     },{
-        "technology": "Git",
+        "skill": "Git",
         "percent": "80",
+        "category": "hardSkill",
         "url": "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
     },{
-        "technology": "Github",
+        "skill": "Github",
         "percent": "80",
+        "category": "hardSkill",
         "url": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
     },{
-        "technology": "Jest",
+        "skill": "Jest",
         "percent": "80",
+        "category": "hardSkill",
         "url": "https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg"
     },{
-        "technology": "Figma",
+        "skill": "Figma",
         "percent": "60",
+        "category": "hardSkill",
         "url": "https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
+    }, {
+        "skill": "Ganas de Aprender",
+        "percent": "100",
+        "category": "softSkill",
+        "url": "https://cdn-icons-png.flaticon.com/512/4334/4334822.png"
+    },{
+        "skill": "Autoaprendizaje",
+        "percent": "90",
+        "category": "softSkill",
+        "url": "https://cdn-icons.flaticon.com/png/512/3321/premium/3321726.png?token=exp=1660966732~hmac=3fbb4ad7281ccaafc7efc15a639c6302"
+    },{
+        "skill": "Trabajo en equipo",
+        "percent": "95",
+        "category": "softSkill",
+        "url": "https://cdn-icons-png.flaticon.com/512/1534/1534938.png"
+    },{
+        "skill": "Adaptabilidad",
+        "percent": "90",
+        "category": "softSkill",
+        "url": "https://cdn-icons-png.flaticon.com/512/649/649650.png"
+    },{
+        "skill": "Iniciativa",
+        "percent": "100",
+        "category": "softSkill",
+        "url": "https://cdn-icons-png.flaticon.com/512/2464/2464153.png"
+    },{
+        "skill": "Solución de problemas",
+        "percent": "90",
+        "category": "softSkill",
+        "url": "https://cdn-icons-png.flaticon.com/512/3050/3050442.png"
+    },{
+        "skill": "Ética Laboral",
+        "percent": "100",
+        "category": "softSkill",
+        "url": "https://cdn-icons-png.flaticon.com/512/2631/2631497.png"
+    },{
+        "skill": "Proactividad",
+        "percent": "95",
+        "category": "softSkill",
+        "url": "https://cdn-icons.flaticon.com/png/512/1120/premium/1120311.png?token=exp=1660966554~hmac=0d72e002084558b89511898457c9a17b"
+    },{
+        "skill": "Compromiso",
+        "percent": "100",
+        "category": "softSkill",
+        "url": "https://cdn-icons.flaticon.com/png/512/5165/premium/5165921.png?token=exp=1660967069~hmac=f46fc52ceb99c6170dafacb225cf52ad"
+    },{
+        "skill": "Apasionada por lo tech",
+        "percent": "80",
+        "category": "softSkill",
+        "url": "https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg"
+    },{
+        "skill": "Ingles",
+        "percent": "50",
+        "category": "softSkill",
+        "url": "https://cdn-icons.flaticon.com/png/512/4365/premium/4365271.png?token=exp=1660967119~hmac=0efe53d4cdcfa5b9c3ed4bb85b51c2bb"
     }]}
