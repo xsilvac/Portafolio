@@ -3,23 +3,46 @@
   "skills": [
     {
         "technology": "React",
-        "percent": "70"
+        "percent": "70",
+        "url": "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
     },{
-        "technology": "bootstrap",
-        "percent": "60"
+        "technology": "Bootstrap",
+        "percent": "60",
+        "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
     },{
         "technology": "Javascript",
-        "percent": "80"
+        "percent": "80",
+        "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
     },{
         "technology": "HTML",
-        "percent": "80"
+        "percent": "80",
+        "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
     },{
         "technology": "CSS",
-        "percent": "70"
+        "percent": "70",
+        "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
     },{
         "technology": "Firebase",
-        "percent": "80"
+        "percent": "80",
+        "url": "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
     },{
         "technology": "Node.js",
-        "percent": "80"
+        "percent": "70",
+        "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+    },{
+        "technology": "Git",
+        "percent": "80",
+        "url": "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+    },{
+        "technology": "Github",
+        "percent": "80",
+        "url": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+    },{
+        "technology": "Jest",
+        "percent": "80",
+        "url": "https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg"
+    },{
+        "technology": "Figma",
+        "percent": "60",
+        "url": "https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
     }]}

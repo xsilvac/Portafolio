@@ -25,7 +25,7 @@ const Home = () => {
         }}
         />
       {bd.map((info) =>
-        <Skills technology={info.technology} percent={info.percent}/>
+        <Skills technology={info.technology} percent={info.percent} image={info.url}/>
       )}
       
     </div>
