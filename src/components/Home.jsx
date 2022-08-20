@@ -7,12 +7,16 @@ import data from '../data/data.json'
 const Home = () => {
  // console.log(data)
   const [bd, setBd] = useState([]);
+  const [filter, setFilter] = useState(bd);
   
   useEffect(() => {
     setBd([...data.skills])
-    // console.log([...data.softSkills])
+    setFilter([...data.skills])
   }, [])
   
+  const filterProducts = (category) => {
+    setFilter(bd.filter(x => x.category === category))
+  }
   return (
     <div className="title">
       <Typewriter
@@ -24,22 +28,19 @@ const Home = () => {
         .start();
         }}
         />
-        <div className="containers">
-      {bd.map((info) =>
-      <div  key={info.skill}>
-        {/* <div className="row justify-content-center">
-          <div className="col-6 col-md-3 py-2"> */}
-          <Skills skill={info.skill} percent={info.percent} image={info.url}/>
-          {/* </div>
-        
-        </div> */}
-        
-        </div>
-        
-      )}
+        <div id="btnsProducts" >
+        <button className="btn btn-outline-dark me-2" onClick={() => setFilter(bd)}>Skills</button>
+        <button className="btn btn-outline-dark me-2" onClick={() => filterProducts("softSkill")}>SoftSkills</button>
+        <button className="btn btn-outline-dark me-2" onClick={() => filterProducts("hardSkill")}>HardSkills</button>
       </div>
-      
-    </div>
+        <div className="containers">
+          {filter.map((info) =>
+          <div  key={info.skill}>
+              <Skills skill={info.skill} percent={info.percent} image={info.url}/>
+            </div>
+          )}
+          </div>
+        </div>
   )
 }
 
