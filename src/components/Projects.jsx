@@ -1,22 +1,23 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { TbWorld } from "react-icons/tb";
+import { FaGithub } from "react-icons/fa";
 
-const Projects = ({image, title}) => {
+const Projects = ({image, title, name, github, web, description}) => {
   return (
-    <div className="child-page-listing">
- 
-  <h2>Our Locations</h2>
- 
-  <article className="location-listing">
-    <Link className="location-title" to="#">{title}</Link>
-    <div className="location-image">
-      <Link to="#">
+    <div className="containerProjects">
+      <h2>{title}</h2>
+      <article className="card">
         <img className="imgProjects" src={image} alt="san francisco"/>
-      </Link>
+        <div className="hover">
+          <h2>{name}</h2>
+          <p>{description}</p>
+          <div className="links">
+            <a target="_blank" href={web} rel="noreferrer"><TbWorld/></a>
+            <a target="_blank" href={github} rel="noreferrer"><FaGithub/></a>
+          </div>
+        </div>
+      </article>
     </div>
-  </article>
-  
-</div>
   )
 }
 

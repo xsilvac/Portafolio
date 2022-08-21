@@ -36,77 +36,54 @@ strong{
   margin:20px;
   text-align: center;
 }
+.containerProjects {
+  margin: 25px;
+}
+.card{
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  margin: 1.5%;
+}
 .imgProjects{
   width: 100%;
-  height: auto;
-}
-.location-listing {
-  position: relative;
-}
-.location-title {
-  position: absolute;
-  top: 0;
-  left: 0;
   height: 100%;
-  width: 100%;
-  background: rgba(90,0,10,0.4);
+  border-radius: 5px;
 }
-.location-image {
-  line-height: 0;
-}
-.location-title {
+.card .hover{
+  width:0%;
+  height: 200px;
+  background-color: rgba(26, 24, 24, 0.795);
   position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: rgba(90,0,10,0.4);
-   
-  /* typographic styles */
-  color: white;
-  font-size: 1.5em;
-  font-weight: bold;
-  text-decoration: none;
-   
-  /* position the text centrally*/
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.location-listing:hover .location-title {
-  opacity: 1;
-}
-.location-image img {
-  filter: blur(0px);
-  transition: filter 0.3s ease-in;
-}
- 
-.location-listing:hover .location-image img {
-  filter: blur(2px);
-}
-.location-image img {
-  filter: blur(0px);
-  transition: filter 0.3s ease-in;
-  transform: scale(1.1);
-}
- 
-.location-listing {
-  position: relative;
-  overflow: hidden;
-}
-/* .title {
-  width: 48%;
-  height:50%;
-  font-family: sans-serif;
-  font-weight:800;
-  font-size:40px;
-  text-align: center;
   display:flex;
+  flex-direction: column;
   justify-content:center;
-  align-items:center;
-  min-height:100vh;
-  background:green;
-} */
+  align-items: center;
+  overflow: hidden;
+  /* transition: .9s all; */
+}
+.hover h2{
+  color:aliceblue;
+  text-shadow: 1px 1px 1px black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+.card:hover .hover{
+  width: 100%;
+}
+.hover p{
+  color:aliceblue;
+  text-shadow: 1px 1px 1px black;
+  font-size: 1em;
+  margin-bottom: -5px
+}
+.hover a{
+  font-size: 2em;
+  margin: 0 9px;
+  color: aliceblue;
+}
 /* Tamaño tablet (768-480)*/
 @media all and (min-width: 480px) and (max-width: 768px) {
   

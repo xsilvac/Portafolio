@@ -44,10 +44,10 @@ const Home = () => {
           )}
           </div>
 
-          <div className="containers">;
+          <div className="containers">
           {webs.map((info) =>
-            <div  key={info.skill}>
-              <Projects image={info.url} title={info.project}/>
+            <div  key={info.title}>
+              <Projects image={info.url} title={info.project} name={info.title} github={info.github} web={info.web} description={info.description}/>
             </div>
             )}
           </div>

@@ -109,28 +109,38 @@
         }],
     "projects":[
         {
-            "project":"Card Validation",
-            "url": "https://snipboard.io/Xqb8Bw.jpg",
-            "github": "https://github.com/xsilvac/LIM017-card-validation",
-            "web": "https://xsilvac.github.io/LIM017-card-validation/"
-        },{
-            "project":"Data Lovers",
-            "url": "https://snipboard.io/nxlv6O.jpg",
-            "github": "https://github.com/xsilvac/LIM017-data-lovers",
-            "web": "https://xsilvac.github.io/LIM017-data-lovers/"
-        },{
-            "project":"Social Network",
-            "url": "https://snipboard.io/UaiBsg.jpg",
-            "github": "https://github.com/xsilvac/LIM017-social-network",
-            "web": "https://lim-017-social-network-lime.vercel.app/"
-        },{
-            "project":"Md Links",
-            "url": "https://snipboard.io/6UtR2S.jpg",
-            "github": "https://github.com/xsilvac/LIM017-md-links",
-            "web": "https://www.npmjs.com/package/md-links-ximena"
-        },{
             "project":"Burger Queen",
+            "title": "Burger Boss",
             "url": "https://snipboard.io/D8Wt9Y.jpg",
             "github": "https://github.com/xsilvac/LIM017-burger-queen",
-            "web": "https://lim-017-burger-queen-nine.vercel.app/"
+            "web": "https://lim-017-burger-queen-nine.vercel.app/",
+            "description" : "🍔Burger Boss es una PWA para un restaurante creada con react y permite agregar productos a una orden, la interfaz debe actualizar la lista del pedido y el total.🛠️🛠️"
+        },{
+            "project":"Md Links",
+            "title": "Md Links",
+            "url": "https://snipboard.io/6UtR2S.jpg",
+            "github": "https://github.com/xsilvac/LIM017-md-links",
+            "web": "https://www.npmjs.com/package/md-links-ximena",
+            "description" : "Es una librería que permite leer los archivos Markdown(.md) en busca sus links, en esta librería se puede obtener la estadística del estado de los links como links totales, únicos y rotos 💻👩🏻‍💻⚙️."
+        },{
+            "project":"Social Network",
+            "title": "Entre Patas",
+            "url": "https://snipboard.io/UaiBsg.jpg",
+            "github": "https://github.com/xsilvac/LIM017-social-network",
+            "web": "https://lim-017-social-network-lime.vercel.app/",
+            "description" : "Red social para dueños de mascotas, donde puedan compartir recomendaciones, avisos por perdida o por si encuentran a mascotas extraviadas 📲💻."
+        },{
+            "project":"Data Lovers",
+            "title": "Fan Ghibli",
+            "url": "https://snipboard.io/nxlv6O.jpg",
+            "github": "https://github.com/xsilvac/LIM017-data-lovers",
+            "web": "https://xsilvac.github.io/LIM017-data-lovers/",
+            "description" : "Página web dirigida a todas las personas fanáticas de Studio Ghibli, que desean conocer información sobre sus películas, deseen filtrar según categorias y ver estadísticas💻."
+        },{
+            "project":"Card Validation",
+            "title": "El club de los peludos",
+            "url": "https://snipboard.io/Xqb8Bw.jpg",
+            "github": "https://github.com/xsilvac/LIM017-card-validation",
+            "web": "https://xsilvac.github.io/LIM017-card-validation/",
+            "description" : "👩🏻‍💻 Este proyecto fue creado con la intención de proteger la información financiara de las personas que tienen mascotas y que requieren adquirir comida, juguetes, entre otras cosas para sus mascotas y lo hacen de manera virtual."
         }]}
