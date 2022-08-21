@@ -20,12 +20,12 @@
         "skill": "HTML",
         "percent": "80",
         "category": "hardSkill",
-        "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+        "url": "https://cdn-icons-png.flaticon.com/512/732/732212.png"
     },{
         "skill": "CSS",
         "percent": "70",
         "category": "hardSkill",
-        "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+        "url": "https://cdn-icons-png.flaticon.com/512/732/732190.png"
     },{
         "skill": "Firebase",
         "percent": "80",
@@ -35,7 +35,7 @@
         "skill": "Node.js",
         "percent": "70",
         "category": "hardSkill",
-        "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+        "url": "https://cdn-icons-png.flaticon.com/512/919/919825.png"
     },{
         "skill": "Git",
         "percent": "80",
@@ -101,11 +101,6 @@
         "percent": "100",
         "category": "softSkill",
         "url": "https://cdn-icons.flaticon.com/png/512/5165/premium/5165921.png?token=exp=1660967069~hmac=f46fc52ceb99c6170dafacb225cf52ad"
-    },{
-        "skill": "Apasionada por lo tech",
-        "percent": "80",
-        "category": "softSkill",
-        "url": "https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg"
     },{
         "skill": "Ingles",
         "percent": "50",

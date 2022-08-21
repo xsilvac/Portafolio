@@ -6,10 +6,10 @@ import { buildStyles } from 'react-circular-progressbar'
 const Skills = ({skill, percent, image}) => {
   return (
     <div>
-        <div style={{ width: 170, height: 170, margin:20}}>
+        <div id="circleProgress">
         <CircularProgressbarWithChildren value={percent} styles={buildStyles({pathColor: `rgba(180, 117, 133, ${80 / 100})`,
             trailColor: '#D7B5BD',})}>
-              <div style={{ fontSize: 20}}>
+              <div id="titleGrafic">
                 <strong>{skill}</strong><br/>
               </div>
               <img style={{ width: 60, marginTop: -5 }} src={image} alt="" />
