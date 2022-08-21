@@ -16,7 +16,7 @@ const Skills = ({skill, percent, image}) => {
               <div style={{ fontSize: 20, marginTop: -5 }}>
                 <strong>{percent}%</strong>
               </div>
-        </CircularProgressbarWithChildren>;
+        </CircularProgressbarWithChildren>
       </div>
     </div>
   )

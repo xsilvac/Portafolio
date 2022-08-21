@@ -21,6 +21,14 @@ body{
   color:#020202;
   text-decoration: none;
 }
+.titleName{
+  font-size: 3em;
+  color: black;
+}
+.titleName #span{
+font-weight: bold;
+color: black;
+}
 .containers{
   display: flex;
   flex-wrap: wrap;
@@ -67,20 +75,22 @@ strong{
 .hover h2{
   color:aliceblue;
   text-shadow: 1px 1px 1px black;
-  font-size: 1.5em;
+  font-size: 25px;
   text-transform: uppercase;
 }
 .card:hover .hover{
   width: 100%;
+  
 }
 .hover p{
   color:aliceblue;
   text-shadow: 1px 1px 1px black;
-  font-size: 1em;
-  margin-bottom: -5px
+  font-size: 15px;
+  margin-bottom: -15px;
+  padding: 0 10px;
 }
 .hover a{
-  font-size: 2em;
+  font-size: 40px;
   margin: 0 9px;
   color: aliceblue;
 }

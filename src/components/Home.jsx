@@ -21,14 +21,14 @@ const Home = () => {
     setFilter(bd.filter(x => x.category === category))
   }
   return (
-    <div className="title">
+    <div className="titleName">
       <Typewriter
         onInit={(typewriter)=> {
         typewriter
-        .typeString("Hola, mi nombre es <strong> Ximena Silva ... </strong> <br/>")
+        .typeString("Hola, mi nombre es <spam id='span'> Ximena Silva ... </spam> <br/>")
         .pauseFor(1000)
         .typeString("Soy front end developer")
-        .start();
+        .start()
         }}
         />
         <div id="btnsProducts" >
