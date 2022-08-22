@@ -1,8 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import miName from "../img/miName.png";
 import miName2 from "../img/MI_NOMBRE2.png";
 import miName3 from "../img/MI_NOMBRE3.png";
+import Projects from "./Projects";
 
 const NavBar = () => {
   return (
@@ -23,34 +25,46 @@ const NavBar = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <div
+            className="collapse navbar-collapse "
+            id="navbarSupportedContent"
+          >
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
               <li className="navbar-brand">
-                <NavLink className="nav-link active" aria-current="page" to="/">
+                <NavLink
+                  style={{ fontSize: 30 }}
+                  className="nav-link"
+                  aria-current="page"
+                  to={<Projects />}
+                >
                   Proyectos
                 </NavLink>
               </li>
               <li className="navbar-brand">
-                <NavLink className="nav-link" to="/">
+                <NavLink style={{ fontSize: 30 }} className="nav-link" to="/">
                   Tecnologias
                 </NavLink>
               </li>
               <li className="navbar-brand">
-                <NavLink className="nav-link" to="/">
+                <NavLink style={{ fontSize: 30 }} className="nav-link" to="/">
                   Contacto
                 </NavLink>
               </li>
+              <li className="navbar-brand">
+                <NavLink
+                  style={{ fontSize: 30 }}
+                  className="nav-link"
+                  to="./XimenaSilvaCV.pdf"
+                  download
+                  target="_blank"
+                >
+                  CV
+                </NavLink>
+              </li>
             </ul>
-            <div className="me-5">
-              <NavLink
-                className="btnCV"
-                to="./XimenaSilvaCV.pdf"
-                download
-                target="_blank"
-              >
-                CV
-              </NavLink>
-            </div>
+            {/* <div className="me-5">
+              
+            </div> */}
           </div>
         </div>
       </nav>

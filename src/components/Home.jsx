@@ -44,8 +44,9 @@ const Home = () => {
         </div>
         <img src={woman} alt="" />
       </section>
+
       <section id="skills">
-        <div id="btnsSkills">
+        <div className="d-flex justify-content-center">
           <button
             className="btn btn-outline-dark me-2"
             onClick={() => setFilter(bd)}

@@ -10,17 +10,17 @@ body{
   background-color: #B47585;
   color:#ffffff
 }
-.btnCV{
+/* .btnCV{
   color:#ffffff;
   text-decoration: none;
-  padding: 28px;
+  margin-top: 5px;
 }
 .btnCV:hover{
   padding: 28px;
   background-color: #bdaba3;
   color:#020202;
   text-decoration: none;
-}
+} */
 .titleName{
   font-size: 3em;
   color: black;
