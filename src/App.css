@@ -4,10 +4,10 @@
   font-family: roboto;
 }
 body{
-  background-color: #DAD0CB;
+  background-color: #F9F9F9;
 }
 #navbar{
-  background-color: #AE8A7A;
+  background-color: #B47585;
   color:#ffffff
 }
 .btnCV{
@@ -24,6 +24,25 @@ body{
 .titleName{
   font-size: 3em;
   color: black;
+  display: grid;
+  grid-template-columns: repeat(25,4%);
+  grid-template-rows: repeat(25,4%);
+}
+.titleName img{
+  grid-column: 17;
+  grid-row: 1;
+}
+.titleName div{
+  grid-column: 3/span 17;
+  grid-row: 2/span 18;
+}
+.titleName p{
+  grid-column: 3/span 6;
+  grid-row: 2/span 6;
+  font-size: 20px;
+  width:70%;
+  text-align: justify;
+  margin-top: 22px;
 }
 .titleName #span{
 font-weight: bold;
