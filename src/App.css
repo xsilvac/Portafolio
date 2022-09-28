@@ -4,10 +4,10 @@
   font-family: roboto;
 }
 body{
-  background-color: #F9F9F9;
+  background-color: #8656a244;
 }
 #navbar{
-  background-color: #B47585;
+  background-color: #513d77;
   color:#ffffff
 }
 /* .btnCV{
@@ -27,18 +27,20 @@ body{
   display: grid;
   grid-template-columns: repeat(25,4%);
   grid-template-rows: repeat(25,4%);
+  margin-bottom: 130px;
 }
 .titleName img{
   grid-column: 17;
-  grid-row: 1;
+  grid-row: 3/span 15;
+ 
 }
 .titleName div{
-  grid-column: 3/span 17;
-  grid-row: 2/span 18;
+  grid-column: 3/span 14;
+  grid-row: 4/span 18;
 }
 .titleName p{
-  grid-column: 3/span 6;
-  grid-row: 2/span 6;
+  padding: 20px;
+  margin-left: 20px;
   font-size: 20px;
   width:70%;
   text-align: justify;
@@ -112,6 +114,45 @@ strong{
   font-size: 40px;
   margin: 0 9px;
   color: aliceblue;
+}
+#contact{
+  display: flex;
+  
+}
+.contactDiv1{
+  width: 50%;
+  padding: 0 1% 0 5%;
+  text-align: center;
+}
+.contactDiv2{
+  width: 50%;
+  padding: 0 5% 0 1%;
+}
+.contactDiv1 a{
+  font-size: 300%;
+  margin-left:5%;
+  color: #513d77;
+}
+.contactDiv1 a:hover{
+  color: #a35683;
+}
+.contactDiv1 p{
+  padding: 1% 7%;
+  text-align: justify;
+}
+#btnSend{
+  width: 100%;
+  padding: 1% 5%;
+  background-color: #513d77;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  color:white;
+  font-weight: bold;
+}
+#btnSend:hover{
+  background-color: #a35683;
+  color:black;
 }
 /* Tamaño tablet (768-480)*/
 @media all and (min-width: 480px) and (max-width: 768px) {

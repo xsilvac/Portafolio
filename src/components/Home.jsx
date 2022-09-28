@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Typewriter from "typewriter-effect";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import Contact from "./Contact";
 import data from "../data/data.json";
 import woman from "../img/woman.png";
 
@@ -22,7 +23,7 @@ const Home = () => {
   };
   return (
     <div>
-      <section id="home" className="titleName">
+      <section id="home" className="titleName" style={{ marginTop: 100 }}>
         <div>
           <Typewriter
             onInit={(typewriter) => {
@@ -45,7 +46,32 @@ const Home = () => {
         <img src={woman} alt="" />
       </section>
 
+      <section id="projects">
+        <br />
+        <br />
+        <br />
+        <br />
+        <div className="containers">
+          {webs.map((info) => (
+            <div key={info.title}>
+              <Projects
+                image={info.url}
+                title={info.project}
+                name={info.title}
+                github={info.github}
+                web={info.web}
+                description={info.description}
+              />
+            </div>
+          ))}
+        </div>
+      </section>
+
       <section id="skills">
+        <br />
+        <br />
+        <br />
+        <br />
         <div className="d-flex justify-content-center">
           <button
             className="btn btn-outline-dark me-2"
@@ -78,21 +104,15 @@ const Home = () => {
           ))}
         </div>
       </section>
-
-      <div className="containers">
-        {webs.map((info) => (
-          <div key={info.title}>
-            <Projects
-              image={info.url}
-              title={info.project}
-              name={info.title}
-              github={info.github}
-              web={info.web}
-              description={info.description}
-            />
-          </div>
-        ))}
-      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <Contact />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 };

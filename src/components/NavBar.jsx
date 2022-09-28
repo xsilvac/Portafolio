@@ -1,19 +1,17 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
-import miName from "../img/miName.png";
-import miName2 from "../img/MI_NOMBRE2.png";
 import miName3 from "../img/MI_NOMBRE3.png";
-import Projects from "./Projects";
 
 const NavBar = () => {
   return (
     <div>
-      <nav id="navbar" className="navbar navbar-expand-lg navbar-dark">
+      <nav
+        id="navbar"
+        className="navbar navbar-expand-lg navbar-dark fixed-top"
+      >
         <div className="container-fluid">
-          <NavLink className="navbar-brand" to="/">
+          <a className="navbar-brand mx-4" href="/">
             <img src={miName3} width="50%" alt="" />
-          </NavLink>
+          </a>
           <button
             className="navbar-toggler"
             type="button"
@@ -26,40 +24,44 @@ const NavBar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            className="collapse navbar-collapse "
+            className="collapse navbar-collapse me-auto"
             id="navbarSupportedContent"
           >
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+            <ul className="navbar-nav  mb-2 mb-lg-0 ms-auto">
               <li className="navbar-brand">
-                <NavLink
+                <a
                   style={{ fontSize: 30 }}
                   className="nav-link"
                   aria-current="page"
-                  to={<Projects />}
+                  href="#projects"
                 >
                   Proyectos
-                </NavLink>
+                </a>
               </li>
               <li className="navbar-brand">
-                <NavLink style={{ fontSize: 30 }} className="nav-link" to="/">
+                <a style={{ fontSize: 30 }} className="nav-link" href="#skills">
                   Tecnologias
-                </NavLink>
+                </a>
               </li>
               <li className="navbar-brand">
-                <NavLink style={{ fontSize: 30 }} className="nav-link" to="/">
-                  Contacto
-                </NavLink>
-              </li>
-              <li className="navbar-brand">
-                <NavLink
+                <a
                   style={{ fontSize: 30 }}
                   className="nav-link"
-                  to="./XimenaSilvaCV.pdf"
+                  href="#contact"
+                >
+                  Contacto
+                </a>
+              </li>
+              <li className="navbar-brand">
+                <a
+                  style={{ fontSize: 30 }}
+                  className="nav-link"
+                  href="./XimenaSilvaCV.pdf"
                   download
                   target="_blank"
                 >
                   CV
-                </NavLink>
+                </a>
               </li>
             </ul>
             {/* <div className="me-5">

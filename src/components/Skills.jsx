@@ -10,7 +10,7 @@ const Skills = ({ skill, percent, image }) => {
         <CircularProgressbarWithChildren
           value={percent}
           styles={buildStyles({
-            pathColor: `rgba(131, 148, 185, ${70 / 100})`,
+            pathColor: `rgba(131, 148, 185, ${99 / 100})`,
             trailColor: "#D7B5BD",
           })}
         >
