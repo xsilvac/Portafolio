@@ -53,7 +53,7 @@ const Home = () => {
         <br />
         <div className="containers">
           {webs.map((info) => (
-            <div key={info.title}>
+            <div className="containerDiv" key={info.title}>
               <Projects
                 image={info.url}
                 title={info.project}

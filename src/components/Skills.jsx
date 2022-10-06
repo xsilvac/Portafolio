@@ -18,7 +18,7 @@ const Skills = ({ skill, percent, image }) => {
             <strong>{skill}</strong>
             <br />
           </div>
-          <img style={{ width: 60, marginTop: -5 }} src={image} alt="" />
+          <img className="skillsName" src={image} alt="" />
           <div style={{ fontSize: 20, marginTop: -5 }}>
             <strong>{percent}%</strong>
           </div>

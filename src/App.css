@@ -65,6 +65,10 @@ strong{
   margin:20px;
   text-align: center;
 }
+.skillsName{
+  width: 60px;
+  margin-top: -5;
+}
 .containerProjects {
   margin: 25px;
 }
@@ -154,6 +158,61 @@ strong{
   background-color: #a35683;
   color:black;
 }
+/* Tamaño teléfonos (480-menos ) */
+@media all and (max-width: 480px) {
+  .titleName {
+    margin-bottom: -124px;
+}
+  .titleName div {
+    grid-column: 3/span 22;
+    grid-row: 3;
+    font-size: 37px;
+    text-align: center;
+}
+.titleName img {
+  grid-column: 18;
+    grid-row: 4;
+    width: 1268%;
+    padding: 0 0px 0 19px;
+}
+.titleName p {
+  padding: 16px 25px 0 0;
+  margin-left: 20px;
+  font-size: 17px;
+  width: 113%;
+  text-align: justify;
+  margin-top: 22px;
+}
+.containers {
+  margin-left: 7%;
+}
+#circleProgress {
+  width: 98px;
+  height: 82px;
+}
+#titleGrafic strong {
+  font-size: 13px;
+}
+.skillsName{
+  width: 33%;
+}
+#contact {
+  display: flex;
+  flex-direction: column;
+  height: 1009px;
+}
+.contactDiv1 {
+  width: 100%;
+  margin-left: 6%;
+  margin-bottom: 19%;
+}
+.contactDiv2 {
+  width: 100%;
+  margin-left: 10%;
+}
+}
+
+
 /* Tamaño tablet (768-480)*/
 @media all and (min-width: 480px) and (max-width: 768px) {
   
